@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.taskdemoapp'
+    namespace 'com.greenmarket.app'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.taskdemoapp"
+        applicationId "com.greenmarket.app"
         minSdk 24
         targetSdk 34
         versionCode 1

@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.taskdemoapp.databinding.FragmentProductListBinding
 import com.greenmarket.app.data.database.AppDatabase
 import com.greenmarket.app.data.model.Product
+import com.greenmarket.app.databinding.FragmentProductListBinding
 import com.greenmarket.app.ui.adapters.ProductListAdapter
 import com.greenmarket.app.ui.viewmodels.ProductViewModel
 import dagger.hilt.android.AndroidEntryPoint
@@ -59,7 +59,63 @@ class ProductListFragment : BaseFragment<FragmentProductListBinding>() {
             Product(
                 "1",
                 "Wireless Gaming Headset",
-                "Gaming headphones that offer 15 hours of battery life on a single charge, a suite of excellent audio drivers, with powerful 55 millimeter speakers, and availability in a wide range of color choices",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "2",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "3",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "4",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "5",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "6",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "7",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "8",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
+                500.0,
+                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+            ),
+            Product(
+                "9",
+                "Wireless Gaming Headset",
+                "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
                 "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
             )

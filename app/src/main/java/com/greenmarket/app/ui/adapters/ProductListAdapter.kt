@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.taskdemoapp.R
+import com.greenmarket.app.R
 import com.greenmarket.app.data.model.Product
 
 class ProductListAdapter() :

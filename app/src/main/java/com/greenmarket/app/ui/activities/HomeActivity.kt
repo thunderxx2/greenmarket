@@ -3,8 +3,8 @@ package com.greenmarket.app.ui.activities
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.viewbinding.ViewBinding
-import com.example.taskdemoapp.R
-import com.example.taskdemoapp.databinding.ActivityHomeBinding
+import com.greenmarket.app.R
+import com.greenmarket.app.databinding.ActivityHomeBinding
 import com.greenmarket.app.ui.fragments.ProductListFragment
 import dagger.hilt.android.AndroidEntryPoint
 
