@@ -7,7 +7,6 @@ pipeline{
                 checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/thunderxx2/greenmarket.git']]])
             }
         }
-    }
 
     stage('Build') {
         steps {
@@ -36,4 +35,5 @@ pipeline{
     post {
         cleanWs()
     }
+  }
 }
