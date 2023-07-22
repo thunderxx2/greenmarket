@@ -7,6 +7,12 @@ pipeline{
 
     stages{
 
+        stage('Print Environment Variable') {
+            steps {
+                echo "ANDROID_HOME: ${env.ANDROID_HOME}"
+            }
+        }
+
         stage('Checkout') {
             steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/thunderxx2/greenmarket.git']]])
