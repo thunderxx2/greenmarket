@@ -25,6 +25,13 @@ pipeline{
             }
         }
 
+        stage('Set SDK Dir') {
+            steps {
+                // Set the sdk.dir project property using the ANDROID_HOME environment variable
+                sh "echo sdk.dir=${ANDROID_HOME} > local.properties"
+            }
+        }
+
     stage('Build') {
         steps {
             sh './gradlew clean assembleDebug'
