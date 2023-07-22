@@ -1,6 +1,10 @@
 pipeline{
     agent any
 
+    environment {
+            ANDROID_HOME = '/path/to/your/android/sdk'
+        }
+
     stages{
 
         stage('Checkout') {
