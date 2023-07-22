@@ -1,11 +1,6 @@
 pipeline{
     agent any
 
-    environment {
-            // Set JAVA_HOME to the path of Java 17
-            JAVA_HOME = 'Downloads/jdk-17.0.8/bin/java'
-        }
-
     stages{
 
         stage('Checkout') {
