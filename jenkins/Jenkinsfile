@@ -1,6 +1,11 @@
 pipeline{
     agent any
 
+    environment {
+            // Set JAVA_HOME to the path of Java 17
+            JAVA_HOME = '/usr/local/opt/openjdk@17'
+        }
+
     stages{
 
         stage('Checkout') {
