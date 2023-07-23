@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     environment {
-            ANDROID_HOME = '/Users/dushyantpawar/Library/Android/sdk'
+            ANDROID_HOME = '/usr/local/Android/sdk'
         }
 
     stages{
