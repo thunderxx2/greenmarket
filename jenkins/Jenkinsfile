@@ -3,6 +3,7 @@ pipeline{
 
     environment {
             ANDROID_HOME = '/Users/dushyantpawar/Library/Android/sdk'
+            sdk_dir = '/Users/dushyantpawar/Library/Android/sdk'
         }
 
     stages{
@@ -15,7 +16,7 @@ pipeline{
 
         stage('Print Environment Variable') {
             steps {
-                echo "ANDROID_HOME: ${env.ANDROID_HOME}"
+                echo "ANDROID_HOME: ${env.sdk_dir}"
             }
         }
 
