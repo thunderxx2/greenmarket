@@ -3,7 +3,7 @@ pipeline{
 
     environment {
             ANDROID_HOME = '/Users/dushyantpawar/Library/Android/sdk'
-            sdk_dir = '/Users/dushyantpawar/Library/Android/sdk'
+            sdk.dir = '/Users/dushyantpawar/Library/Android/sdk'
         }
 
     stages{
@@ -26,12 +26,12 @@ pipeline{
             }
         }
 
-        stage('Set SDK Dir') {
-            steps {
-                // Set the sdk.dir project property using the ANDROID_HOME environment variable
-                sh "echo sdk.dir=${ANDROID_HOME} > local.properties"
-            }
-        }
+//         stage('Set SDK Dir') {
+//             steps {
+//                 // Set the sdk.dir project property using the ANDROID_HOME environment variable
+//                 sh "echo sdk.dir=${ANDROID_HOME} > local.properties"
+//             }
+//         }
 
     stage('Build') {
         steps {
