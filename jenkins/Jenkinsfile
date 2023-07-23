@@ -2,8 +2,7 @@ pipeline{
     agent any
 
     environment {
-            ANDROID_HOME = '/Users/dushyantpawar/Library/Android/sdk'
-            sdk.dir = '/Users/dushyantpawar/Library/Android/sdk'
+            sdk.dir = "${ANDROID_HOME}"
         }
 
     stages{
