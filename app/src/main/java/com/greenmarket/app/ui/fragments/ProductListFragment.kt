@@ -61,63 +61,63 @@ class ProductListFragment : BaseFragment<FragmentProductListBinding>() {
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "2",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "3",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "4",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "5",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "6",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "7",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "8",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             ),
             Product(
                 "9",
                 "Wireless Gaming Headset",
                 "Gaming headphones that offer 15 hours of battery life on a single charge",
                 500.0,
-                "https://media.istockphoto.com/id/1289318271/photo/3d-pink-headphones.webp?s=1024x1024&w=is&k=20&c=6L92VJrvKzk4aaCEPqX2Yv5XIxY_QTP2KvbMSFMLaWE="
+                "https://www.shutterstock.com/image-illustration/3d-rendering-yellow-headphones-isolated-600w-1833307018.jpg"
             )
         )
         CoroutineScope(Dispatchers.IO).launch {

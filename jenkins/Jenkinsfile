@@ -1,0 +1,65 @@
+pipeline{
+    agent any
+
+    environment {
+            ANDROID_HOME = '/usr/local/Android/sdk'
+        }
+
+    stages{
+
+        stage('Clean Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
+
+        stage('Print Environment Variable') {
+            steps {
+                echo "ANDROID_HOME: ${env.sdk_dir}"
+            }
+        }
+
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/feature_productuidevelopment']], userRemoteConfigs: [[url: 'https://github.com/thunderxx2/greenmarket.git']]])
+            }
+        }
+
+//         stage('Set SDK Dir') {
+//             steps {
+//                 // Set the sdk.dir project property using the ANDROID_HOME environment variable
+//                 sh "echo sdk.dir=${ANDROID_HOME} > local.properties"
+//             }
+//         }
+
+    stage('Build') {
+        steps {
+            sh './gradlew clean assembleDebug'
+        }
+    }
+
+    stage('Test'){
+        steps{
+            sh './gradlew test'
+        }
+    }
+
+    stage('Publish APK'){
+        steps{
+            archiveArtifacts artifacts: 'app/build/outputs/apk/debug/*.apk', fingerprint: true
+        }
+    }
+
+//     stage('Deploy'){
+//         steps {
+//             //
+//         }
+//     }
+  }
+
+//       post {
+//         always {
+//           cleanWs()
+//           }
+//       }
+}
